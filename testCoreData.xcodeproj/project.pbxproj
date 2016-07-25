@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		087DB84A462D17121C9D0E34 /* libPods-testCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6571511CEF12346154993610 /* libPods-testCoreData.a */; };
+		322CA0671D44C9E7001E8E0D /* TestTitle+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 322CA0641D44C9E7001E8E0D /* TestTitle+CoreDataProperties.m */; };
+		322CA0681D44C9E7001E8E0D /* TestTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 322CA0661D44C9E7001E8E0D /* TestTitle.m */; };
+		322CA06B1D450611001E8E0D /* PersonT.m in Sources */ = {isa = PBXBuildFile; fileRef = 322CA06A1D450611001E8E0D /* PersonT.m */; };
 		A9E4C6C31D4490DC004AE0CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E4C6C21D4490DC004AE0CD /* main.m */; };
 		A9E4C6C61D4490DC004AE0CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E4C6C51D4490DC004AE0CD /* AppDelegate.m */; };
 		A9E4C6C91D4490DC004AE0CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E4C6C81D4490DC004AE0CD /* ViewController.m */; };
@@ -18,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		322CA0631D44C9E7001E8E0D /* TestTitle+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestTitle+CoreDataProperties.h"; sourceTree = "<group>"; };
+		322CA0641D44C9E7001E8E0D /* TestTitle+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TestTitle+CoreDataProperties.m"; sourceTree = "<group>"; };
+		322CA0651D44C9E7001E8E0D /* TestTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTitle.h; sourceTree = "<group>"; };
+		322CA0661D44C9E7001E8E0D /* TestTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTitle.m; sourceTree = "<group>"; };
+		322CA0691D450611001E8E0D /* PersonT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonT.h; sourceTree = "<group>"; };
+		322CA06A1D450611001E8E0D /* PersonT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonT.m; sourceTree = "<group>"; };
 		6571511CEF12346154993610 /* libPods-testCoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testCoreData.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		992D6EAA43329A4E5B81E0CA /* Pods-testCoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCoreData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testCoreData/Pods-testCoreData.debug.xcconfig"; sourceTree = "<group>"; };
 		9BDCCD55F079BE5594AB430C /* Pods-testCoreData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCoreData.release.xcconfig"; path = "Pods/Target Support Files/Pods-testCoreData/Pods-testCoreData.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,7 +87,13 @@
 			children = (
 				A9E4C6C41D4490DC004AE0CD /* AppDelegate.h */,
 				A9E4C6C51D4490DC004AE0CD /* AppDelegate.m */,
+				322CA0631D44C9E7001E8E0D /* TestTitle+CoreDataProperties.h */,
+				322CA0641D44C9E7001E8E0D /* TestTitle+CoreDataProperties.m */,
+				322CA0651D44C9E7001E8E0D /* TestTitle.h */,
+				322CA0661D44C9E7001E8E0D /* TestTitle.m */,
 				A9E4C6C71D4490DC004AE0CD /* ViewController.h */,
+				322CA0691D450611001E8E0D /* PersonT.h */,
+				322CA06A1D450611001E8E0D /* PersonT.m */,
 				A9E4C6C81D4490DC004AE0CD /* ViewController.m */,
 				A9E4C6CA1D4490DC004AE0CD /* Main.storyboard */,
 				A9E4C6D01D4490DC004AE0CD /* Assets.xcassets */,
@@ -228,8 +243,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9E4C6CF1D4490DC004AE0CD /* testCoreData.xcdatamodeld in Sources */,
+				322CA0671D44C9E7001E8E0D /* TestTitle+CoreDataProperties.m in Sources */,
+				322CA0681D44C9E7001E8E0D /* TestTitle.m in Sources */,
 				A9E4C6C91D4490DC004AE0CD /* ViewController.m in Sources */,
 				A9E4C6C61D4490DC004AE0CD /* AppDelegate.m in Sources */,
+				322CA06B1D450611001E8E0D /* PersonT.m in Sources */,
 				A9E4C6C31D4490DC004AE0CD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
